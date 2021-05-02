@@ -1,0 +1,15 @@
+# 1.16 sound list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# 1.8 sound list: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+# sound,volume,pitch,delay
+# Delay is in ticks (20 = 1 second)
+# Use @ to get a random number '@x/y'
+# If you don't want a sound to be played set value to "none"
+# For multiple sounds separate with "-"
+sounds:
+   playerSelectKit: "ITEM_ARMOR_EQUIP_IRON,1,1,0"
+   gameTimerTick: "ENTITY_CHICKEN_EGG,1,1,0"
+   borderTimerTick: "none"
+   borderShrunk: "none"
+   goldenHeadUse: "none"
+   playerWin: "none"
+   playerScenarioVote: "none"

@@ -1,0 +1,122 @@
+# Made by nktfh100
+
+prefix: " "
+
+# Note: you must set 'spawn-protection' to 0 in your server.properties file
+
+# PlaceholderAPI placeholders:
+# %uhcmeetup_time_played% - seconds
+# %uhcmeetup_time_played_hours%
+# %uhcmeetup_time_played_days%
+# %uhcmeetup_time_played_games_played%
+# %uhcmeetup_time_played_kills%
+# %uhcmeetup_time_played_deaths%
+# %uhcmeetup_time_played_wins%
+
+# Admin command: /uhcmeetup
+# Admin permission: aderlyon-uhc-meetup.admin
+
+waitingLobby: world,0,0,0,0,0
+
+# ELO
+defaultRating: 1200
+
+minPlayers: 5
+maxPlayers: 20
+# How long to wait in seconds after there are enough players (minPlayers)
+gameTimer: 40
+
+borderHeight: 7
+
+# On death
+dropGoldenHead: true
+
+defaultKit: "default"
+
+bungeecord:
+   # If this server is the lobby server
+   isLobby: false
+   # The lobby server name
+   lobbyServer: lobby
+   # This server name
+   serverName: uhc1
+   # Game servers: (if this is the lobby server)
+   # Syntax: BUNGEECORD-NAME,IP,PORT
+   gameServers:
+      - uhc1,localhost,25563
+
+# In the lobby arena selector inventory
+showRunningArenas: true
+
+lobbyItemsSlots:
+   kitSelector: 0
+   scenarioVote: 1
+   stats: 2
+   leave: 8
+   # In the lobby server
+   arenaSelector: 0
+   lobbyStats: 1
+
+# Potion effect list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Syntax: EFFECT,DURATION,LEVEL
+# Example: ABSORPTION,120,2
+goldenHeadEffects:
+   - ABSORPTION,120,2
+   - REGENERATION,5,3
+
+noCleanEffects:
+   - DAMAGE_RESISTANCE,15,2
+
+goldenHeadTimeout: 1 # Timeout between uses in seconds
+
+mysql:
+   host: "localhost"
+   port: "3306"
+   database: "meetup"
+   username: "user"
+   password: "pass"
+
+
+border:
+   start:
+      size: 120
+      time: 40 # Seconds
+      # Example: the border will shrink to 45 in 40 seconds
+      messages:
+         - 30
+         - 15
+         - 10
+         - 5
+         - 4
+         - 3
+         - 2
+         - 1
+   one:
+      size: 45
+      time: 35 # Seconds
+      messages:
+         - 30
+         - 15
+         - 10
+         - 5
+         - 4
+         - 3
+         - 2
+         - 1
+   two:
+      size: 30
+      time: 30
+      messages:
+         - 30
+         - 15
+         - 10
+         - 5
+         - 4
+         - 3
+         - 2
+         - 1
+   three:
+      size: 25
+      time: 30
+      messages: [] # Last border doesn't need any messages
+         

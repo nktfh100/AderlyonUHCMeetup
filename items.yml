@@ -1,0 +1,158 @@
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# For custom heads:
+# Set the material value to @TEXTURE_VALUE@ - Example: '@eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViZDg1YjdmOWU2MjIyYjM5NTQ1MWFkYjQ2Yjc2YTYyZjdlOTVkYTZmYmY3ZWZlNzE1Yzc4MzQ1NTE0MCJ9fX0=@'
+items:
+   leave:
+      title: "&c&lLeave game"
+      mat: RED_BED
+      slot: 8
+   kitSelector:
+      mat: CHEST
+      title: "&e&lKit selector"
+   stats:
+      mat: BOOK
+      title: "&a&lYour stats"
+   goldenHead:
+      mat: "@eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIxY2FiNDA5NWU3MWJkOTI1Y2Y0NjQ5OTBlMThlNDNhZGI3MjVkYjdjYzE3NWZkOWQxZGVjODIwOTE0YjNkZSJ9fX0=@"
+      title: "&6Golden Head"
+   scenarioVote:
+      mat: BEACON
+      title: "&e&lScenario vote"
+   # Scenarios
+   # %value% - How many votes this scenario has
+   scenario_default:
+      slot: 0
+      mat: PAPER
+      title: "&aDefault"
+      lore:
+         - "&9Vanilla gameplay"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_bowless:
+      slot: 1
+      mat: BOW
+      title: "&aBowless"
+      lore:
+         - "&9Bows cannot be crafted or used"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_fireless:
+      slot: 2
+      mat: BLAZE_POWDER
+      title: "&aFireless"
+      lore:
+         - "&9No fire swords/bows"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_noClean:
+      slot: 3
+      mat: DIAMOND_SWORD
+      title: "&aNo clean"
+      lore:
+         - "&9When you kill someone you get 15 seconds of protection"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_horseless:
+      slot: 4
+      mat: SADDLE
+      title: "&aHorseless"
+      lore:
+         - "&9No horses"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_rodless:
+      slot: 5
+      mat: FISHING_ROD
+      title: "&aRodless"
+      lore:
+         - "&9No fishing rods"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_timeBomb:
+      slot: 6
+      mat: CLOCK
+      title: "&aTime bomb"
+      lore:
+         - "&9When someone dies it drops a chest with"
+         - "&9the player's inventory that explodes after 30 seconds"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_tntOnDeath:
+      slot: 7
+      mat: TNT
+      title: "&atnt on death"
+      lore:
+         - "&9When someone dies it drops an active tnt block"
+         - "&eCurrently has &a%value% &evotes."
+   scenario_switcheroo:
+      slot: 8
+      mat: ENDER_PEARL
+      title: "&aSwitcheroo"
+      lore:
+         - "&9When you shoot someone with a bow it switches your positions"
+         - "&eCurrently has &a%value% &evotes."
+   arenaSelector:
+      mat: CHEST
+      title: "&a&lUHC Meetup Arenas"
+   arenaSelector_arena:
+      # %value% The arena server name
+      # %value1% Arena current players
+      # %value2% Maximum players
+      # %value3% State color: loading - yellow, waiting - green, starting - blue, running - red
+      # %value4% Arena current state
+      # Can't join
+      mat: PAPER
+      title: "&6&l%value%"
+      lore:
+         - '&a&lplayers: &f%value1%/%value2%'
+         - '&e'
+         - '%value3%%value4%'
+      # Can join:
+      mat2: PAPER
+      title2: "&6&l%value%"
+      lore2:
+         - '&a&lplayers: &f%value1%/%value2%'
+         - '&e'
+         - '%value3%%value4%'
+         - '&e'
+         - '&e&lClick to join'
+   arenaSelector_border:
+      mat: BLUE_STAINED_GLASS_PANE
+      title: " "
+   stats_background:
+      mat: GRAY_STAINED_GLASS_PANE
+      title: " "
+   # %value% The stats value
+   stats_wins:
+      slot: 13
+      mat: GOLD_INGOT
+      title: "&eWins"
+      lore:
+         - "&8>> &a%value%"
+   stats_elo:
+      slot: 10
+      mat: GOLD_NUGGET
+      title: "&eELO"
+      lore:
+         - "&8>> &a%value%"
+   stats_leaderboardPosition:
+      slot: 16
+      mat: ARROW
+      title: "&eLeaderboard position"
+      lore:
+         - "&8>> &a%value%"
+   stats_winProbability:
+      slot: 43
+      mat: GOLD_BLOCK
+      title: "&ewin probability"
+      lore:
+         - "&8>> &a%value%%"
+   stats_averagePosition:
+      slot: 37
+      mat: PAPER
+      title: "&eAverage position"
+      lore:
+         - "&8>> &a%value%"
+   stats_gamesPlayed:
+      slot: 40
+      mat: BOOK
+      title: "&eGames played"
+      lore:
+         - "&8>> &a%value%"
+   
+         
+         
+         

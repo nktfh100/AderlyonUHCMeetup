@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.16.2.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.8.8.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.16.1.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.16.3.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.16.4.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.16.5.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.15.1.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.13.2.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.13.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.11.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.10.2.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/buildtools/spigot-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/java stuff/MineCraft/Jars/PlaceholderAPI-2.10.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

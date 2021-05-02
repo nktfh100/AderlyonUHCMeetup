@@ -1,0 +1,106 @@
+
+# %prefix% Plugin prefix
+messages:
+   # %value% New border size
+   borderShrunk: '&7&l[&6&lBorder&7&l]&f The border has shrunk to &6%value%&f.'
+   # %value% How many seconds left
+   # %value1% New border size
+   borderWillShrink: '&7&l[&6&lBorder&7&l]&f The border will shrink to &6%value1%&f in &6%value% seconds&f.'
+   # %value% Time before the game starts
+   gameStartingTime: '&eGame starting in %value% seconds'
+   gameStarting: '&eGame starting now!'
+   notEnoughPlayers: "&cNot enough players!"
+   reachedBorder: "&cYou have reached the border!"
+   # %value% Player name
+   # %value1% Current players in the game
+   # %value2% Game maximum players
+   # %value3% Game minimum players
+   playerJoin: "&e%value% joined. (%value1%/%value2%)"
+   playerLeave: "&e%value% left. (%value1%/%value2%)"
+   # %value% Player that won
+   winMessage: "&a%value% &ehas won the game."
+   # %value% Victim name
+   # %value1% Victim health
+   # %value3% Damage amount
+   bowHit: "&7%value% &eis on &c%value1% &eHP"
+   gameFullKick: "&cGame is full!"
+   gameLoadingKick: "&cGame is loading!"
+   gameRunningKick: "&cGame is running!"
+   # %value% Selected kit name
+   selectedKit: "&aSelected kit: %value%"
+   # %value% Player name
+   playerVoted: "&a%value% has voted."
+   # %value1% Scenario the player voted for
+   scenarioVote: "&aVoted for %value1%!"
+   # %value% The most voted scenario name
+   scenarioChosen: "&aScenario %value% has been chosen!"
+   # %value% The player that you switched positions with
+   switcheroo: "&aSwitched position with %value%"
+   kitSelectorTitle: "&e&lSelect kit"
+   scenarioVoteTitle: "&e&lScenario vote"
+   arenaSelectorInvTitle: "&e&lArena Selector"
+   # %value% Player
+   playerStatsInvTitle: "&e&lStats &8&l>> &7&l%value%"
+  
+# %victim% Victim name
+# %killer% Killer name
+# %killcount% Victim kill count
+# %killerkillcount% Killer kill count
+# %blocks% Kill range
+deathMessages:
+  death: "&c%victim%&7[&f%killcount%&7]&e Died."
+  normal: '&c%victim%&7[&f%killcount%&7]&e was slain by &c%killer%&7[&f%killerkillcount%&7]&f.'
+  bow: '&c%victim%&7[&f%killcount%&7]&e was shot by &c%killer%&7[&f%killerkillcount%&7]&e from &9%blocks% blocks&f.'
+  enderPearl: '&c%victim%&7[&f%killcount%&7]&e was shot (using EnderPearl) by &c%killer%&7[&f%killerkillcount%&7]&e from &9%blocks% blocks&f.'
+  fire: '&c%victim%&7[&f%killcount%&7]&e was burned&f.'
+  lava: '&c%victim%&7[&f%killcount%&7]&e was burned&f.'
+  fall: '&c%victim%&7[&f%killcount%&7]&e hit the ground too hard&f.'
+  cactus: '&c%victim%&7[&f%killcount%&7]&e was pricked to death&f.'
+
+scenarios:
+   default: "default"
+   bowless: "bowless"
+   fireless: "fireless"
+   noClean: "no clean"
+   horseless: "horseless"
+   rodless: "rodless"
+   timeBomb: "time bomb"
+   tntOnDeath: "tnt on death"
+   switcheroo: "switcheroo"
+
+scoreboard:
+   title: "&e&lUHC Meetup"
+   # %player% - Player's name
+   # %players% - Players in the game (including spectators)
+   # %minplayers% - Minimum players
+   # %maxplayers% - Maximum players
+   # %gamestarttime% - Start timer 
+   # %gamestate% - Game state
+   waiting-lobby-lines:
+      - '%emptyline%'
+      - '&9&lPlayers:'
+      - '&a%players%/%maxplayers%'
+      - '%emptyline%'
+      - '&aplay.aderlyon.com'
+   # %playersalive% - Players alive
+   # %gametime% - Game time
+   # %kills% - Player kills
+   # %border% - Current border size
+   # %bordertime% - Time to next border (seconds)
+   playing-lines:
+      - '%emptyline%'
+      - 'Game time: &6%gametime%s'
+      - 'Remaining: &6%playersalive%/%maxplayers%'
+      - 'Kills: &6%kills%'
+      - 'Border: &6%border%'
+      - 'Next border in: &6%bordertime%s'
+      - '%emptyline%'
+      - '&aplay.aderlyon.com'
+   spectator-lines:
+      - '%emptyline%'
+      - 'Game time: &6%gametime%s'
+      - 'Remaining: &6%playersalive%/%maxplayers%'
+      - 'Border: &6%border%'
+      - 'Next border in: &6%bordertime%s'
+      - '%emptyline%'
+      - '&aplay.aderlyon.com'

@@ -1,0 +1,104 @@
+name: "default" # This shouldn't have any colors
+enabled: true
+
+# Material list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Enchantment list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+
+# Custom item example:
+# item:
+#    material: "DIAMOND_SWORD"
+#    name: "&aCustom name"
+#    amount: 1 # Default = 1
+#    slot: 0
+#    enchantments:
+#       DAMAGE_ALL: 3
+#    lore:
+#       - "&aa lore line"
+
+
+displayItem:
+   material: "IRON_CHESTPLATE"
+   name: "&aDefault kit"
+   lore:
+      - "&fDefault kit"
+
+# If you dont want an armor set material value to "AIR"
+armor:
+   helmet:
+      material: "IRON_HELMET"
+   chestplate:
+      material: "IRON_CHESTPLATE"
+   leggings:
+      material: "IRON_LEGGINGS"
+   boots:
+      material: "IRON_BOOTS"
+      
+# For custom heads:
+# Set the material value to "@TEXTURE_VALUE@"
+# Example: '@eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWViZDg1YjdmOWU2MjIyYjM5NTQ1MWFkYjQ2Yjc2YTYyZjdlOTVkYTZmYmY3ZWZlNzE1Yzc4MzQ1NTE0MCJ9fX0=@'
+
+items:
+   item_0:
+      material: "DIAMOND_SWORD"
+      slot: 0
+      enchantments:
+         DAMAGE_ALL: 3
+   item_1:
+      material: "FISHING_ROD"
+      slot: 1
+   item_2:
+      material: "LAVA_BUCKET"
+      slot: 2
+   item_3:
+      material: "BOW"
+      slot: 3
+      enchantments:
+         ARROW_DAMAGE: 3
+   item_4:
+      material: "GOLDEN_APPLE"
+      slot: 4
+      amount: 4
+   item_5:
+      material: "@eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIxY2FiNDA5NWU3MWJkOTI1Y2Y0NjQ5OTBlMThlNDNhZGI3MjVkYjdjYzE3NWZkOWQxZGVjODIwOTE0YjNkZSJ9fX0=@"
+      name: "&6Golden Head" # Must match "goldenHead" in items.yml
+      slot: 5
+      amount: 3
+   item_6:
+      material: "COOKED_BEEF"
+      slot: 6
+      amount: 64
+   item_7:
+      material: "WATER_BUCKET"
+      slot: 7
+   item_8:
+      material: "COBBLESTONE"
+      slot: 8
+      amount: 64
+   item_9:
+      material: "CRAFTING_TABLE"
+      slot: 20
+   item_10:
+      material: "ENCHANTING_TABLE"
+      slot: 21
+   item_11:
+      material: "ANVIL"
+      slot: 22
+   item_12:
+      material: "DIAMOND_PICKAXE"
+      slot: 23
+   item_13:
+      material: "LAVA_BUCKET"
+      slot: 29
+   item_14:
+      material: "ARROW"
+      slot: 30
+      amount: 64
+   item_15:
+      material: "COBWEB"
+      slot: 33
+      amount: 4
+   item_16:
+      material: "WATER_BUCKET"
+      slot: 34
+
+      

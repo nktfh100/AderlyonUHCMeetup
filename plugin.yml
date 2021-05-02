@@ -1,0 +1,17 @@
+name: AderlyonUHCMeetup
+main: com.nktfh100.AderlyonUHCMeetup.main.UHCMeetup
+author: nktfh100
+version: 1.0
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+
+commands:
+   uhcmeetup:
+      description: UHC meetup admin command
+
+permissions:
+  aderlyon-uhc-meetup.admin:
+   description: Allow to enter while the game is running and use the admin command
+   default: op
+  
+ 
